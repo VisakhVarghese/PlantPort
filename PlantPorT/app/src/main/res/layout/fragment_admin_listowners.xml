@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_shop"
+            android:layout_width="fill_parent"
+            android:layout_height="?actionBarSize"
+            app:titleTextAppearance="@font/montserrat"
+            android:elevation="4.0dip"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:titleTextColor="@color/Text_color" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_view"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:id="@+id/shop_recycler"-->
+<!--        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>-->
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="4dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+     <com.rengwuxian.materialedittext.MaterialEditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/name_menu"
+         android:fontFamily="@font/montserrat"
+         android:hint="Name"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <info.hoang8f.widget.FButton
+
+                android:id="@+id/btn_select"
+                android:layout_width="130dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:fontFamily="@font/montserrat"
+                android:layout_marginBottom="10sp"
+                android:layout_marginStart="15sp"
+                android:layout_marginTop="10sp"
+                android:backgroundTint="@color/official_color"
+                android:layout_height="wrap_content"
+                android:text="SELECT"
+
+                />
+            <info.hoang8f.widget.FButton
+
+                android:id="@+id/btn_upload"
+                android:layout_marginTop="10sp"
+                android:layout_width="130dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="30dp"
+                android:fontFamily="@font/montserrat"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="10sp"
+                android:backgroundTint="@color/official_color"
+                android:layout_height="wrap_content"
+                android:text="UPLOAD"
+
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

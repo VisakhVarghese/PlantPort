@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.Customer_Feedback">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/contact_us"
+        android:contentDescription="TODO" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/Text_color"
+            android:fontFamily="@font/futura_heavy_font"
+            android:textSize="30sp"
+            android:text="How can we help you?"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/Text_color"
+            android:textSize="15sp"
+            android:text="Your feedback is very important to us.We"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/Text_color"
+            android:textSize="15sp"
+            android:text="consider your feedback very seriously and"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/Text_color"
+            android:textSize="15sp"
+            android:text="work hard to provide you with best "/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/Text_color"
+            android:textSize="15sp"
+            android:text="possible solution at the earliest"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40dp"
+            android:textColor="@color/Text_color"
+            android:fontFamily="@font/montserrat"
+            android:layout_height="wrap_content"
+            android:text="Reason to contact"/>
+
+        <EditText
+            android:id="@+id/customer_reason"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10sp"
+            android:layout_marginStart="40dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:hint="Enter subject here"
+            android:gravity="left|center"
+            android:background="@drawable/custom_input"
+            android:layout_marginEnd="40dp"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40dp"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/Text_color"
+            android:layout_height="wrap_content"
+            android:text="Your Query"/>
+
+        <EditText
+            android:id="@+id/customer_query"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10sp"
+            android:layout_marginStart="40dp"
+            android:hint="Your Query"
+            android:gravity="left"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:paddingTop="10sp"
+            android:paddingBottom="10sp"
+            android:background="@drawable/custom_input"
+            android:layout_marginEnd="40dp"
+            android:layout_height="150dp"/>
+        
+        <Button
+            android:id="@+id/send_query"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="SEND QUERY"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat"
+            android:backgroundTint="@color/official_color"
+            android:background="@drawable/custom_input"
+            />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

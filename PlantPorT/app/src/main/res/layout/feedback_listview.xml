@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="20sp"
+    android:paddingBottom="20sp"
+    android:paddingStart="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingEnd="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Customer Name"
+        android:id="@+id/username"
+        android:fontFamily="@font/montserrat"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/userphone"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="PhoneNumber"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/userreason"
+        android:layout_marginTop="2dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="Reason"
+        android:textSize="18sp"/>
+
+
+</LinearLayout>
+
+
+    <!--</androidx.cardview.widget.CardView>-->

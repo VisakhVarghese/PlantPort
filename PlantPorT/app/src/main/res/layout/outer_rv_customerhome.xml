@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content">
+
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/shope_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SHOP NAME"
+            android:background="#57F414"
+            android:textColor="@color/Text_color"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:fontFamily="@font/futura_heavy_font"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/inner_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+</ScrollView>

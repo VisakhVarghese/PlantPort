@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@drawable/back_img"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_postvideo"
+            android:layout_width="fill_parent"
+            android:layout_height="?actionBarSize"
+            android:elevation="4.0dip"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:titleTextColor="@color/Text_color" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <VideoView
+        android:id="@+id/owner_videos"
+        android:layout_width="match_parent"
+         android:layout_height="230.0dip"
+        android:layout_marginBottom="500.0dip"
+        android:backgroundTint="@color/Text_color"
+         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="400.0dip"
+        android:paddingStart="20.0dip"
+        android:paddingEnd="20.0dip">
+
+        <EditText
+            android:id="@+id/video_desc"
+            android:background="@color/white"
+            android:layout_width="fill_parent"
+            android:layout_height="60.0dip"
+            android:hint="Description"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:textColor="@color/Text_color"
+            android:id="@+id/video_date"
+            android:background="@color/white"
+            android:layout_width="fill_parent"
+            android:layout_height="60.0dip"
+            android:layout_marginTop="10.0dip"
+            android:hint="Date" android:ems="10"
+            android:inputType="date" />
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:id="@+id/btn_video"
+                android:background="@drawable/background_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30.0dip"
+                android:text="Post"
+                android:layout_marginStart="45.0dip"
+                android:backgroundTint="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/btn_choosevideo"
+                android:background="@drawable/background_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30.0dip"
+                android:text="choose"
+                android:layout_marginStart="30.0dip"
+                android:backgroundTint="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/btn_playvideo"
+                android:background="@drawable/background_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30.0dip"
+                android:text="play"
+                android:layout_marginStart="30.0dip"
+                android:backgroundTint="@color/colorPrimaryDark" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

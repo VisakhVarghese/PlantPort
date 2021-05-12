@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PlantPorT</string>
+    <string name="last_name">Last Name</string>
+    <string name="verify_otp">VERIFY OTP</string>
+    <string name="post_video">POST VIDEO</string>
+    <string name="make_selection">Make Selection</string>
+    <string name="description">Description</string>
+    <string name="roboto">roboto-medium.ttf</string>
+</resources>

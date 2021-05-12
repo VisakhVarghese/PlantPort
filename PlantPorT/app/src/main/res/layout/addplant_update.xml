@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="4dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:text="Plant Name    :"
+                android:textSize="20dp"/>
+
+
+            <TextView
+                android:id="@+id/plants"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:text="Plantname"
+                android:fontFamily="@font/montserrat"
+                android:textSize="20sp"/>
+
+
+
+        </LinearLayout>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:id="@+id/descri_plant"
+            android:layout_marginTop="20dp"
+            android:hint="Description"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/montserrat"
+            android:id="@+id/quanti"
+            android:hint="Quantity"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/montserrat"
+            android:id="@+id/price_plant"
+            android:hint="Price"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <info.hoang8f.widget.FButton
+
+                android:id="@+id/btnselect_plant"
+                android:layout_width="130dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="10sp"
+                android:fontFamily="@font/montserrat"
+                android:layout_marginStart="15sp"
+                android:layout_marginTop="15sp"
+                android:backgroundTint="@color/official_color"
+                android:layout_height="wrap_content"
+                android:text="SELECT"
+
+                />
+            <info.hoang8f.widget.FButton
+
+                android:id="@+id/btnupload_plant"
+                android:layout_marginTop="15sp"
+                android:layout_width="130dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginRight="8dp"
+                android:fontFamily="@font/montserrat"
+                android:layout_marginBottom="10sp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/official_color"
+                android:text="UPDATE"
+
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
