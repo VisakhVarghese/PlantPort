@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#213ECD</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="white">#ffffffff</color>
+    <color name="Text_color">#ff020202</color>
+    <color name="Recycler_Background_color">#45f0e0de</color>
+    <color name="back_color">#ECE5E5</color>
+
+    <color name="official_color">#57F414</color>
+
+    <color name="overlayBackground">#7f333639</color>
+
+</resources>
